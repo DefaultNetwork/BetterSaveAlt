@@ -1,0 +1,20 @@
+Set up GitHub Repository:	Create a GitHub repository, add team members, and clone the repo.
+Merge Datasets:	Merge energy consumption and generation datasets using 'Date'.
+Save Cleaned Data:	Save the cleaned dataset as 'Cleaned_Energy_Data.csv'.
+Generate Summary Statistics:	Use pandas `.describe()` to get summary statistics of energy data.
+Create Data Visualizations:	Plot trends in energy production and consumption over time.
+Identify Trends & Missing Values:	Check for missing values, outliers, and data inconsistencies.
+Prepare Training Data:	Select features (X) and target variable (Y) for forecasting.
+Train SARIMAX Model:	Train an SARIMAX model using past energy data.
+Evaluate SARIMAX Model:	Evaluate SARIMAX model performance using MSE and RMSE.
+Train LSTM Model:	Train an LSTM model using TensorFlow/Keras.
+Optimize LSTM Model:	Fine-tune hyperparameters to improve predictions.
+Compare SARIMAX vs. LSTM:	Compare SARIMAX vs. LSTM for best forecasting accuracy.
+Set up Flask API:	Set up Flask API to deploy ML models.
+Create `/predict` Endpoint:	Create the `/predict` endpoint for energy forecasts.
+Create `/allocate` Endpoint:	Create the `/allocate` endpoint for storage recommendations.
+Test API Locally:	Test API locally using Postman or curl.
+Set up Streamlit Dashboard:	Develop a Streamlit web app.
+Connect API to Frontend:	Connect the Flask API to the frontend.
+Design UI for Predictions:	Design an interactive UI to display energy predictions.
+Perform End-to-End Testing:	Perform end-to-end system testing.

@@ -1,4 +1,4 @@
-,Start date,End date,Total (grid load) [MWh] Calculated resolutions,Residual load [MWh] Calculated resolutions,Hydro pumped storage [MWh] Calculated resolutions
+,Date,End date,Total (grid load) [MWh] Calculated resolutions,Residual load [MWh] Calculated resolutions,Hydro pumped storage [MWh] Calculated resolutions
 0,2015-01-01,2015-01-02,1096852.75,768472.25,25895.5
 1,2015-01-02,2015-01-03,1288914.75,679205.75,27225.0
 2,2015-01-03,2015-01-04,1213309.5,736911.75,24694.25
