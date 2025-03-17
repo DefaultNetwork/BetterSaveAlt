@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
 import pmdarima as pm
+import pickle
 
 
 # -------------------------
@@ -93,6 +94,9 @@ plt.title('SARIMAX Forecast vs Actual')
 plt.legend()
 plt.show()
 
+# Save the SARIMAX model to disk
+with open('sarimax_model.pkl', 'wb') as f:
+    pickle.dump(sarimax_fit, f)
 # -------------------------
 # LSTM Model Section
 # -------------------------
